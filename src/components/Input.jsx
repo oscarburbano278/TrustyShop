@@ -1,4 +1,4 @@
-const Input = ()=>{
+const Input = ({type, value, placeholder,className})=>{
 
     return(
         <div className="inputClass">
@@ -6,6 +6,7 @@ const Input = ()=>{
             type={type}
             value={value}
             placeholder={placeholder}
+            className={className}
             />
         </div>
     )

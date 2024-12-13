@@ -1,8 +1,11 @@
-import { Route, Routes } from 'react-router-dom';
-import Home from './pages/home/Home'
-import IngresoDatos from './pages/ingresoDatos/ingrsoDatos'
+import { Link } from "react-router-dom";
+import Home from "./pages/home/Home";
 
 function App() { 
+
+    return(
+        <Link to='/IngresoDatos'>{<home />}</Link>
+    )
 
 }
 

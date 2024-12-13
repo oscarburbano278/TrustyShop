@@ -1,0 +1,91 @@
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.clsContLogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clsContDOS{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 50px;
+}
+
+.clsContDatosComprador{
+    display: flex;
+    flex-direction: column; /* Coloca los inputs en columna */
+    gap: 15px; /* Espacio entre cada input */
+    margin-bottom: 20px; /* Espacio entre contenedores */
+    background-color: rgb(34, 34, 53);
+    border: 1px solid rgb(31, 86, 148);
+    align-items: center;
+}
+
+.clsContDatosVendedor{
+    display: flex;
+    flex-direction: column; /* Coloca los inputs en columna */
+    gap: 15px; /* Espacio entre cada input */
+    margin-bottom: 20px; /* Espacio entre contenedores */
+    background-color: rgb(34, 34, 53);
+    border: 1px solid rgb(31, 86, 148);
+    align-items: center;
+}
+
+h2{
+    font-size: 2rem;
+    align-items: center;
+    margin: 20px;    
+}
+
+.clsContaMonto{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 50px;    
+}
+
+.clsMonto{
+    width: 80px;
+}
+
+.clsContaImg{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 50px;
+}
+
+input{
+    border-radius: 5px;
+    background-color: rgb(226, 222, 216);
+    
+}
+
+.clsContBoton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.clsBoton{
+    background-color: rgb(20, 156, 122);
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.clsBoton:hover{
+    background-color: rgb(11, 102, 72);
+}
