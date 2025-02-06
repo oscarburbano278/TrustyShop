@@ -1,11 +1,19 @@
-import { Link } from "react-router-dom";
+
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
+import IngresoDatos from "./pages/ingresoDatos/ingresoDatos";
+import DinerApp from "./pages/obtDineroApp/dinerApp";
 
 function App() { 
 
     return(
-        <Link to='/IngresoDatos'>{<home />}</Link>
-    )
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/IngresoDatos" element={<IngresoDatos />} />
+            <Route path="/DinerApp" element={<DinerApp />} />
+        </Routes>
+        
+    );
 
 }
 

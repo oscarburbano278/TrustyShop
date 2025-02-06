@@ -3,6 +3,7 @@ import Inicio from '../../components/Inicio';
 import Input from '../../components/Input';
 import imgPse from '../../assets/imgPse.png';
 import ComponentButton from '../../components/ComponentButton';
+import { Link } from 'react-router-dom';
 
 
 const IngresoDatos = () => {
@@ -72,9 +73,11 @@ const IngresoDatos = () => {
             </div>
 
             <div className="clsContBoton">
+            <Link to="/DinerApp">
                 <ComponentButton 
                 text='enviar'
-                />             
+                />
+            </Link> 
                         
             </div>
 

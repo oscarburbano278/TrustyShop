@@ -1,0 +1,42 @@
+.clsContImg{
+    text-align: center;
+    color: white;
+    padding: 20px;
+    max-width: 400px;
+    width: 90%;
+}
+
+img{
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+h2{
+
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.clsContainerDiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(34, 34, 53);
+    border: 1px solid rgb(31, 86, 148);
+}
+
+.clsInputVC{
+    padding: 5px;
+    gap: 15px;
+    
+}
+
